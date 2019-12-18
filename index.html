@@ -26,5 +26,12 @@
     <h1 class="big">이것은 제목입니다.</h1>
     <h2 id="dream">이것은 부제목입니다. <a href="https://www.naver.com">이것은 링크입니다.</a></h2>
     <p class="big">이것은 본문 내용입니다.</p>
+    <button id="btn">알림창표시</button>
+    <script>
+        const btn = document.querySelector('#btn');
+        btn.addEventListener('click',function(){
+            alert('클릭하였음.');
+        })
+    </script>
 </body>
 </html>
